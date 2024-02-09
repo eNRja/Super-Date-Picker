@@ -1,0 +1,12 @@
+/* Скрываем скролл во всех браузерах */
+.YearContainer {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-left: 8px;
+}
+
+.YearContainer::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

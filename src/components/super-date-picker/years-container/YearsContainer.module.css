@@ -1,0 +1,18 @@
+/* Скрываем скролл во всех браузерах */
+.YearsContainer {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-left: 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+  grid-row-gap: 24px;
+  max-width: 100%;
+  margin: 0 auto 24px;
+}
+
+.YearsContainer::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

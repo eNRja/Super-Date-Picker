@@ -1,0 +1,27 @@
+.DateFromTo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.DateFromToTitle {
+  margin-bottom: 4px;
+}
+
+.DateFromToButtonsArea {
+  margin-bottom: 6px;
+}
+
+.DateFromToInputArea {
+  display: flex;
+}
+
+.DateFromToInput {
+  margin: 4px 10px 0 0;
+  width: 60px;
+}
+
+.DateFromToInput input {
+  width: 54px;
+}

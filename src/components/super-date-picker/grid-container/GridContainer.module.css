@@ -1,0 +1,19 @@
+.GridContainer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  grid-row-gap: 2px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.GridItem {
+  cursor: default;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}
+
+.GridItemGrey {
+  color: #808080;
+}

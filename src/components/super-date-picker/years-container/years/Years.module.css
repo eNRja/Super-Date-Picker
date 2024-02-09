@@ -1,0 +1,33 @@
+.YearItem {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  font-size: 18px;
+  border-radius: 50%;
+  color: #808080;
+  transition: 0.5s;
+}
+
+.YearItem:hover {
+  background: #edebf2;
+  cursor: pointer;
+}
+
+.YearItemCurrent {
+  background: #7950e9;
+  color: white;
+  transition: 0.5s;
+}
+
+.YearItemCurrent:hover {
+  background: #7950e9;
+  color: white;
+  cursor: pointer;
+}
+
+.YearItemActive {
+  color: black;
+}

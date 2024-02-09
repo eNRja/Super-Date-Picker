@@ -1,0 +1,19 @@
+.MainDate {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 320px;
+  background: #cfd9e9;
+  border-radius: 10px;
+}
+
+.MainDateText {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.MainDateButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}

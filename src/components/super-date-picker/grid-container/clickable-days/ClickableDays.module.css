@@ -1,0 +1,35 @@
+.ClickableDays {
+  cursor: default;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #cfd9e9;
+  transition: 0.2s;
+}
+
+.ClickableDays:hover {
+  background: #edebf2;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.ClickableDaysGrey {
+  color: #808080;
+}
+
+.ClickableDaysCurrDay {
+  background: #7950e9;
+  color: white;
+  transition: 0.5s;
+}
+
+.ClickableDaysCurrDay:hover {
+  background: #7950e9;
+  color: white;
+  cursor: pointer;
+}
+
+.ClickableDaysClickedDay {
+  border: 1px solid #7950e9;
+}

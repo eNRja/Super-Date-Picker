@@ -1,0 +1,41 @@
+.MonthContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+  grid-row-gap: 24px;
+  max-width: 100%;
+  margin: 0 auto 24px;
+}
+
+.MonthItem {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.MonthItem:hover {
+  background: #edebf2;
+  cursor: pointer;
+}
+
+.MonthItemCurrent {
+  background: #7950e9;
+  color: white;
+  transition: 0.5s;
+}
+
+.MonthItemCurrent:hover {
+  background: #7950e9;
+  color: white;
+  cursor: pointer;
+}
+
+.MonthItemGrey {
+  color: #808080;
+}

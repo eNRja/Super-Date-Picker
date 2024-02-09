@@ -1,0 +1,129 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  width: 320px;
+  height: 430px;
+  background: #cfd9e9;
+  border-radius: 10px;
+}
+
+.ContainerSmall {
+  height: 68px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.Month {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.MonthButtons {
+  margin: auto 0;
+  display: flex;
+  width: 70px;
+  justify-content: space-between;
+}
+
+.MonthButtonUpDown {
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  transition: 0.2s;
+}
+
+.MonthButtonUpDown:hover {
+  background: #edebf2;
+  cursor: pointer;
+}
+
+.MonthButtonImg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.arrow {
+  position: relative;
+  cursor: pointer;
+  margin: 12px 5px 20px 20px;
+  width: 26px;
+  height: 26px;
+  background: white;
+  border-radius: 6px;
+}
+
+.arrowleft {
+  position: absolute;
+  background-color: transparent;
+  top: 48%;
+  left: 5%;
+  width: 14px;
+  height: 4px;
+  display: block;
+  transform: rotate(35deg);
+  float: right;
+  border-radius: 1px;
+}
+
+.arrowleft:after {
+  content: "";
+  background-color: #337ab7;
+  width: 14px;
+  height: 4px;
+  display: block;
+  float: right;
+  border-radius: 4px 7px 7px 4px;
+  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 0.8);
+  z-index: -1;
+}
+
+.arrowright {
+  position: absolute;
+  background-color: transparent;
+  top: 48%;
+  left: 42%;
+  width: 14px;
+  height: 4px;
+  display: block;
+  transform: rotate(-35deg);
+  float: right;
+  border-radius: 1px;
+}
+
+.arrowright:after {
+  content: "";
+  background-color: #337ab7;
+  width: 14px;
+  height: 4px;
+  display: block;
+  float: right;
+  border-radius: 7px 4px 4px 7px;
+  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 0.8);
+  z-index: -1;
+}
+
+.open .arrowleft:after {
+  transform-origin: center center;
+  transform: rotate(-70deg);
+}
+
+.open .arrowright:after {
+  transform-origin: center center;
+  transform: rotate(70deg);
+}
